@@ -1,3 +1,5 @@
+import java.lang.System.Logger;
+
 public class LoggerTest {
     public static void main(String[] args) {
         Logger logger1 = Logger.getInstance();
