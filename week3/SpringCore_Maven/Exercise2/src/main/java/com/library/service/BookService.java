@@ -10,6 +10,6 @@ public class BookService {
     }
 
     public void printBook(int id) {
-        System.out.println("📘 Book Found: " + bookRepository.getBookById(id));
+        System.out.println("Book Found: " + bookRepository.getBookById(id));
     }
 }
